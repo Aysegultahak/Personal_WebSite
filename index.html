@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kişisel web sitesi</title>
+    <link rel="shortcut icon" href="img/icons8-a-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- Header  start-->
+   <header class="header">
+        <a href="#" class="logo"> <img src="img/icons8-a-64.png" alt=""> <Span>Ayşegül Tahak</Span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+             <a href="#home" class="active lang" data-tr="Anasayfa" data-en="Home">Home</a>
+            <a href="#experience" class="lang" data-tr="Deneyim" data-en="Experience">Experience</a>
+            <a href="#education" class="lang" data-tr="Eğitim" data-en="Education">Education</a>
+            <a href="#skills" class="lang" data-tr="Yetenekler" data-en="Skills">Skills</a>
+            <a href="#projects" class="lang" data-tr="Projeler" data-en="Projects">Projects</a>
+            <a href="#contact" class="lang" data-tr="İletişim" data-en="Contact">Contact</a>
+           
+            <div class="language-switcher">
+                <button onclick="setLanguage('tr')">TR</button>
+                <button onclick="setLanguage('en')">EN</button>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+            🌙
+            </button>
+        </nav>
+
+   </header>
+     <!-- Header end-->
+    <!-- Home section start -->
+      <section class="home" id="home">
+        <div class="home-text">
+            <h1 class="lang" data-tr="Merhaba, ben Ayşegül" data-en="Hello, I'm Ayşegül">
+            Hello, I'm Ayşegül
+            </h1>
+
+            <h3 class="text-animation"> I am <span></span></h3>
+            <p class="lang" data-tr="Yapay Zekâ ve Nesnelerin İnterneti (IoT) alanlarında yeteneklerimi aktif olarak geliştiriyor, 
+            bu kapsamda AI destekli sürücü uyuklama tespiti sistemi gibi çeşitli projeler üzerinde çalışıyorum.
+             Ayrıca, React Native ile mobil uygulama geliştirme, OpenGL ile oyun geliştirme ve HTML, 
+             CSS, JavaScript, PHP, SQL ile web geliştirme ve veritabanı yönetim sistemleri konularında da deneyimim var.
+            Bunlara ek olarak Python, Java, C# ve C++ dillerinde yetkinim. Teknofest yarışmalarına katıldım ve bu 
+            süreçte su altı araçları, VTOL’ler (dikey kalkış ve iniş yapabilen hava araçları), 
+            dronelar ve elektrikli araçların geliştirilmesine katkıda bulundum. Teknolojiye olan tutkum,
+             uzmanlığımı sürekli geliştirmemi ve bilgimi gerçek dünya problemlerine uygulamamı sağlıyor." 
+            data-en="I have been actively developing my skills in AI and IoT, working on various
+            projects, including an AI-powered driver drowsiness detection system. 
+            I also have experience in mobile app development with React Native, game
+            development with OpenGL, and web development using HTML, CSS,
+            JavaScript, PHP, SQL, and database management systems.
+            Additionally, I am proficient in Python, Java, C#, and C++. I have
+            participated in Teknofest, contributing to the development of underwater
+            vehicles, VTOLs, drones, and electric vehicles. My passion for technology
+            drives me to continuously expand my expertise and apply my knowledge
+            to real-world challenges">
+            I have been actively developing my skills in AI and IoT, working on various
+            projects, including an AI-powered driver drowsiness detection system. 
+            I also have experience in mobile app development with React Native, game
+            development with OpenGL, and web development using HTML, CSS,
+            JavaScript, PHP, SQL, and database management systems.
+            Additionally, I am proficient in Python, Java, C#, and C++. I have
+            participated in Teknofest, contributing to the development of underwater
+            vehicles, VTOLs, drones, and electric vehicles. My passion for technology
+            drives me to continuously expand my expertise and apply my knowledge
+            to real-world challenges
+            </p>
+        
+            <div class="social-icons">
+                <a href="https://www.instagram.com/ali_ozdemir_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/ay%C5%9Feg%C3%BCl-tahak-b38aa4234/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Aysegultahak" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn lang" data-tr="Özgeçmiş" data-en="CV">CV</a>
+                <a href="#" class="btn lang" data-tr="İletişim" data-en="Contact">contact</a>
+           </div>
+
+        </div>
+        <div class="home-img">
+            <img src="img/photo.jpg" alt="">
+        </div>
+      </section>
+      <!-- Home section end -->
+       <!-- experience  section start -->
+    <section class="experience" id="experience">
+        <h1 class="heading lang" data-tr="Deneyim" data-en="Experience">Experience</h1>
+        <div class="timeline-items">
+            <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date"></div>
+            <div class="timeline-content">
+                <h3>Temmuz - Ekim 2024</h3>
+                <h2>METAKMAKER3D / Krakow, Polonya</h2>
+                <h1 class="lang" data-tr="Yazılım Geliştirici (Stajyer)" data-en="Software Developer (Student Internship)">Software Developer (Student Internship)</h1>
+                <p class="lang" data-tr="Python geliştiricisi olarak, 3D grafikler oluşturmak ve makine komutlarını işlemek için Python ile özel eklentiler/senaryolar geliştirdim. Yazılımı test etme, hata ayıklama ve yineleme çalışmaları yaptım." 
+                data-en="Python developer, Developing custom plugins/scripts with Python for generating 3D graphics and processing lines of machine commands. Testing, debugging, and iterating the software.">
+                Python developer, Developing custom plugins/scripts with Python for generating 3D graphics and processing lines of machine commands. Testing, debugging, and iterating the software.
+                </p>
+            </div>
+            </div>
+
+            <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date"></div>
+            <div class="timeline-content">
+                <h3>Temmuz - Ekim 2023</h3>
+                <h2>DPOINT GROUP / Barselona, İspanya</h2>
+                <h1 class="lang" data-tr="Web Geliştirici (Stajyer)" data-en="Web Developer (Student Internship)">Web Developer (Student Internship)</h1>
+                <p class="lang" data-tr="Web geliştirici olarak, kullanıcıların doğrudan etkileşimde bulunduğu bir web sitesinin görsel öğelerini oluşturdum. HTML, CSS, JavaScript gibi teknolojilerin yanı sıra Back-End geliştirme de yaptım." 
+                data-en="Web developer, Creating the visual elements of a website or web application that users interact with directly. This involves using technologies such as HTML, CSS, and JavaScript and also Back end development">
+                Web developer, Creating the visual elements of a website or web application that users interact with directly. This involves using technologies such as HTML, CSS, and JavaScript and also Back end development.
+                </p>
+            </div>
+            </div>
+
+            <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date"></div>
+            <div class="timeline-content">
+                <h3>Temmuz - Kasım 2023</h3>
+                <h2>TEKNOARMADA VTOL / Gaziantep, Türkiye</h2>
+                <h1 class="lang" data-tr="Yazılım Geliştirici" data-en="Software Developer">Software Developer</h1>
+                <p class="lang" data-tr="Python ve OpenCV kullanarak nesne tespiti ve sınıflandırma için görüntü işleme algoritmaları geliştirdim. Gömülü sistemler ve gerçek zamanlı veri işleme için elektrik-elektronik takımlarıyla birlikte çalışarak algoritmaları optimize ettik." 
+                data-en="Developed image processing algorithms for object detection and classification using Python and OpenCV. Collaborated with the electrical and electronics teams to optimize algorithms for embedded systems and real-time data processing.">
+                Developed image processing algorithms for object detection and classification using Python and OpenCV. Collaborated with the electrical and electronics teams to optimize algorithms for embedded systems and real-time data processing.
+                </p>
+            </div>
+            </div>
+
+            <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date"></div>
+            <div class="timeline-content">
+                <h3>Temmuz - Kasım 2023</h3>
+                <h2>TEKNOARMADA Submarine / Gaziantep, Türkiye</h2>
+                <h1 class="lang" data-tr="Yazılım Geliştirici" data-en="Software Developer">Software Developer</h1>
+                <p class="lang" data-tr="Bir su altı aracı için kontrol arayüzü geliştirdim ve verileri yakalayarak araç kontrol arayüzünü oluşturdum." 
+                data-en="I am developed a controller for an underwater vehicle and created the vehicle control interface by capturing data.">
+                I am developed a controller for an underwater vehicle and created the vehicle control interface by capturing data.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experience  section END -->
+
+    <!-- EDUCATİON  section start -->
+     <section class="education" id="education">
+  <h1 class="heading lang" data-en="Education" data-tr="Eğitim">Education</h1>
+  <div class="timeline-items">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date"></div>
+      <div class="timeline-content">
+        <h3>2021 - Halen</h3>
+        <h2 class="lang" data-en="SAKARYA UNIVERSITY" data-tr="SAKARYA ÜNİVERSİTESİ">SAKARYA UNIVERSITY</h2>
+        <p class="lang" data-en="Bachelor student in Computer Engineering" 
+           data-tr="Bilgisayar Mühendisliği lisans öğrencisi">
+           Bachelor student in Computer Engineering
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date"></div>
+      <div class="timeline-content">
+        <h3>2016 - 2020</h3>
+        <h2 class="lang" data-en="ADANA CEYHAN SCIENCE HIGH SCHOOL" data-tr="ADANA CEYHAN FEN LİSESİ">ADANA CEYHAN SCIENCE HIGH SCHOOL</h2>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- EDUCATİON  section END -->
+        <!-- Skills section start -->
+    <section class="skills" id="skills">
+        <h1 class="heading lang" data-en="Skills" data-tr="Yetenekler">Skills</h1>
+        <div class="skills-container">
+            <div class="skill-item">
+            <i class='bx bxl-html5'></i>
+            <p>HTML5</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-css3'></i>
+            <p>CSS3</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-javascript'></i>
+            <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-python'></i>
+            <p>Python</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-java'></i>
+            <p>Java</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-git'></i>
+            <p>Git</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-github'></i>
+            <p>GitHub</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-react'></i>
+            <p>React</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bxl-typescript'></i>
+            <p>TypeScript</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bx-code-alt'></i>
+            <p>C++</p>
+            </div>
+            <div class="skill-item">
+            <i class='bx bx-code-alt'></i>
+            <p>C#</p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills section end -->
+ 
+  
+    <!-- Projects Section Start -->
+    <section class="projects" id="projects">
+  <h1 class="heading lang" data-en="Projects" data-tr="Projeler">Projects</h1>
+
+  <!-- Proje 1 -->
+  <div class="project-box">
+    <h2 class="lang" data-en="Real-Time Detection of Driver Drowsiness Using Deep Learning"
+                data-tr="Derin Öğrenme ile Sürücü Uykululuk Durumunun Gerçek Zamanlı Tespiti">
+        Real-Time Detection of Driver Drowsiness Using Deep Learning
+    </h2>
+    <p class="lang" data-en="This project is an AI-based application developed in Python for real-time detection of driver drowsiness. The system analyzes facial features to evaluate the driver’s level of alertness. A custom dataset was manually created for model training, and the proposed model achieved an accuracy of 85%"
+       data-tr="Bu proje, sürücü uykululuk durumunun gerçek zamanlı tespiti için Python ile geliştirilmiş yapay zekâ tabanlı bir uygulamadır. Sistem, sürücünün uyanıklık seviyesini değerlendirmek için yüz özelliklerini analiz eder. Model eğitimi için özel bir veri kümesi manuel olarak oluşturuldu ve önerilen model %85 doğruluk oranına ulaştı.">
+       This project is an AI-based application developed in Python for real-time detection of driver drowsiness. The system analyzes facial features to evaluate the driver’s level of alertness. A custom dataset was manually created for model training, and the proposed model achieved an accuracy of 85%.
+    </p>
+
+    <div class="swiper mySwiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/foto1.png" alt=""></div>
+        <div class="swiper-slide"><img src="img/foto2.png" alt=""></div>
+        <div class="swiper-slide"><img src="img/foto3.png" alt=""></div>
+      </div>
+      <div class="swiper-button-next swiper-button-next1"></div>
+      <div class="swiper-button-prev swiper-button-prev1"></div>
+      <div class="swiper-pagination swiper-pagination1"></div>
+    </div>
+  </div>
+
+  <!-- Proje 2 -->
+  <div class="project-box">
+    <h2 class="lang" data-en="3D Printer Desktop Application"
+                data-tr="3D Yazıcı Masaüstü Uygulaması">
+        3D Printer Desktop Application
+    </h2>
+    <p class="lang" data-en="This is a desktop application for 3D printer management developed using Python. The design of the application was initially created with Figma, followed by its implementation. The second image represents the design prototype created in Figma"
+       data-tr="Bu proje, Python ile geliştirilen bir 3D yazıcı yönetim masaüstü uygulamasıdır. Uygulamanın tasarımı ilk olarak Figma ile oluşturulmuş ve ardından geliştirilmiştir. İkinci görsel, Figma'da hazırlanan tasarım prototipini göstermektedir.">
+       This is a desktop application for 3D printer management developed using Python. The design of the application was initially created with Figma, followed by its implementation. The second image represents the design prototype created in Figma
+    </p>
+
+    <div class="swiper mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/foto4.png" alt=""></div>
+        <div class="swiper-slide"><img src="img/foto5.png" alt=""></div>
+      </div>
+      <div class="swiper-button-next swiper-button-next2"></div>
+      <div class="swiper-button-prev swiper-button-prev2"></div>
+      <div class="swiper-pagination swiper-pagination2"></div>
+    </div>
+  </div>
+
+  <!-- Proje 3 -->
+  <div class="project-box">
+    <h2 class="lang" data-en="VTOL"
+                data-tr="VTOL (Dikey Kalkış ve İnişli Hava Aracı)">
+        VTOL
+    </h2>
+    <p class="lang" data-en="Collaboratively developed image processing algorithms for object detection and classification using Python and OpenCV. Worked closely with electrical and electronics teams to optimize these algorithms for embedded systems and real-time data processing, ensuring efficient performance within hardware constraints. Additionally, implemented flight control for VTOL UAVs using MissionPlanner software"
+       data-tr="Python ve OpenCV kullanarak nesne tespiti ve sınıflandırma için görüntü işleme algoritmaları geliştirildi. Bu algoritmaların gömülü sistemler ve gerçek zamanlı veri işleme için optimize edilmesi konusunda elektrik ve elektronik ekipleriyle birlikte çalışıldı. Ayrıca VTOL insansız hava araçları için MissionPlanner yazılımı ile uçuş kontrolü sağlandı.">
+       Collaboratively developed image processing algorithms for object detection and classification using Python and OpenCV. Worked closely with electrical and electronics teams to optimize these algorithms for embedded systems and real-time data processing, ensuring efficient performance within hardware constraints. Additionally, implemented flight control for VTOL UAVs using MissionPlanner software
+    </p>
+
+   <div class="swiper mySwiper3">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <video controls width="100%">
+        <source src="img/video1.mp4" type="video/mp4">
+      </video>
+    </div>
+    
+  <div class="swiper-button-next swiper-button-next3"></div>
+  <div class="swiper-button-prev swiper-button-prev3"></div>
+  <div class="swiper-pagination swiper-pagination3"></div>
+</div>
+
+  </div>
+</section>
+
+
+        <!-- Projects section end -->
+
+
+       <section class="contact" id="contact">
+        <h1 class="heading lang" data-tr="İletişim" data-en="Contact">contact</h1>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+            <div class="input-group">
+                <input type="text" class="lang" data-tr-placeholder="Adınız" data-en-placeholder="Your Name" placeholder="Your Name" required>
+                <input type="email" class="lang" data-tr-placeholder="E-posta Adresiniz" data-en-placeholder="Your Email" placeholder="Your Email" required>
+            </div>
+            <input type="text" class="lang" data-tr-placeholder="Konu" data-en-placeholder="Subject" placeholder="Subject" required>
+            <textarea rows="6" class="lang" data-tr-placeholder="Mesajınız" data-en-placeholder="Your Message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn lang" data-tr="Mesaj Gönder" data-en="Send Message">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+            <p><i class='bx bx-map'></i> <span class="lang" data-tr="Konum:" data-en="Location:">Location:</span> 
+                <a href="https://www.google.com/maps?q=İstanbul,+Türkiye" target="_blank" rel="noopener noreferrer">
+                İstanbul, Türkiye
+                </a>
+            </p>
+            <p><i class='bx bx-envelope'></i> <span class="lang" data-tr="E-posta:" data-en="Email:">Email:</span> 
+                <a href="mailto:aysegultahak084@gmail.com">aysegultahak084@gmail.com</a>
+            </p>
+            <p><i class='bx bx-phone'></i> <span class="lang" data-tr="Telefon:" data-en="Phone:">Phone:</span>  
+                <a href="tel:+905366116977">+905366116977</a>
+            </p>
+            <div class="social-icons">
+                <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/ay%C5%9Feg%C3%BCl-tahak-b38aa4234/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Aysegultahak" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            </div>
+        </div>
+        </section>
+    <!-- Contact section end -->
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
